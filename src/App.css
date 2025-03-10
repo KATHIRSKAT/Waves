@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Prevent horizontal scrolling */
+html, body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in element's total width */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  *, *::before, *::after {
+    box-sizing: inherit; /* Ensure all elements use border-box */
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Ensure images and other elements do not exceed the viewport width */
+  img, video, iframe, canvas, svg {
+    max-width: 100%; /* Prevent overflow */
+    height: auto; /* Maintain aspect ratio */
   }
-}
+  
+  /* Container for your content */
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding */
+  }
+  
+  /* Example for header */
+  .Header-Container {
+    width: 100%;
+    max-width: 100%; /* Ensure it doesn't exceed the viewport */
+    padding: 10px 20px; /* Add padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Example for other sections */
+  .section {
+    width: 100%;
+    max-width: 100%; /* Ensure it doesn't exceed the viewport */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }

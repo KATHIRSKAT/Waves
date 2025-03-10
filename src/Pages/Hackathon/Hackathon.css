@@ -1,0 +1,80 @@
+/* Container for the Hackathon page */
+.hackathon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: transparent; /* Light background for contrast */
+  }
+  
+  /* Hackathon Card */
+  .hackathon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:transparent;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px; /* Larger width for the card */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Hackathon Image */
+  .hackathon-image {
+    width: 80%; /* Full width of the card */
+    height: auto;
+    max-height: 300px; /* Limit image height */
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hackathon Details */
+  .hackathon-details {
+    width: 100%;
+  }
+  
+  .hackathon-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: greenyellow;
+    margin-bottom: 15px;
+  }
+  
+  .hackathon-description {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Hackathon Registration Link */
+  .hackathon-registration-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #61dafb; /* Light blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hackathon-registration-link:hover {
+    background-color: #4fa3c7; /* Darker shade on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hackathon-card {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    .hackathon-title {
+      font-size: 24px;
+    }
+  
+    .hackathon-description {
+      font-size: 14px;
+    }
+  }

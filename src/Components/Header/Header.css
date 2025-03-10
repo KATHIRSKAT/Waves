@@ -1,0 +1,98 @@
+.Header-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  position: relative;
+  border-bottom: 2px solid rgba(255,255,255,0.5);;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+}
+
+.Seee-logo img {
+  height: 50px;
+  margin-right: 6px;
+}
+
+.Seee-Name {
+  margin-left: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.page-links {
+  display: flex;
+  gap: 20px;
+}
+
+.Header-Element {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.Header-Element:hover {
+  font-size: 1.6rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .Header-Container {
+    justify-content: flex-start; /* Align items to the start (left) */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .Seee-logo img{
+    display: flex;
+    align-items: center;
+    margin-left:20vw;
+  }
+  
+
+  .hamburger-menu {
+    display: flex; /* Show hamburger menu */
+    position: absolute; /* Position it absolutely */
+    top:30px; /* Adjust top position */
+    left: 20px; /* Position it to the left */
+  }
+
+  .Logo {
+    margin-left: 60px; /* Push logo to the right of the hamburger menu */
+  }
+
+  .page-links {
+    display: none; /* Hide dropdown menu by default */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Position below the header */
+    left: 20px; /* Open dropdown on the left */
+    background-color:black;
+    padding: 10px;
+    opacity: 0.6;
+    width: 28%; /* Adjust width as needed */
+    z-index: 10; /* Ensure it appears above other content */
+  }
+
+  .page-links.open {
+    display: flex; /* Show dropdown menu when open */
+  }
+}

@@ -1,0 +1,119 @@
+/* General styling for the About Us container */
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; /* Reduced padding for smaller screens */
+  background-color: transparent;
+  min-height: 100vh;
+}
+
+/* Department Logo */
+.logo-container {
+  margin-bottom: 1.5rem; /* Reduced margin for smaller screens */
+}
+
+.department-logo {
+  width: 60%; /* Larger percentage for better visibility on small screens */
+  height: 50%; /* Maintain aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* About the Department */
+.department-info {
+  margin-top: -40px;
+  text-align: center;
+  max-width: 90%; /* Adjusted for smaller screens */
+  margin-bottom: 1.5rem; /* Reduced margin for smaller screens */
+}
+
+.department-info h2 {
+  font-size: 2rem; /* Smaller font size for mobile */
+  margin-bottom: 0.8rem; /* Reduced margin for smaller screens */
+  color: white;
+}
+
+.department-info p {
+  font-size: 1rem; /* Smaller font size for mobile */
+  color: white;
+  line-height: 1.5; /* Adjusted line height for better readability */
+  margin-bottom: 1rem; /* Reduced margin for smaller screens */
+}
+
+/* Office Barriers */
+.office-barriers {
+  background-color: transparent;
+  padding: 1rem; /* Reduced padding for smaller screens */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 90%; /* Adjusted for smaller screens */
+  width: 100%;
+}
+
+.office-barriers h3 {
+  font-size: 1.8rem; /* Smaller font size for mobile */
+  margin-bottom: 0.8rem; /* Reduced margin for smaller screens */
+  color: white;
+}
+
+.barriers-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.barriers-image-wrapper {
+  display: flex;
+  width: 200%; /* Double the width to accommodate duplicated images */
+  animation: slide 10s linear infinite; /* Adjust the time as needed */
+}
+
+.barriers-image {
+  width: 50vw; /* Each image takes 50% of the viewport width */
+  height:50vh; /* Reduced height for smaller screens */
+  padding: 5px; /* Reduced padding for smaller screens */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move the container by 50% of its width */
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 480px) {
+  .about-us-container {
+    padding: 0.5rem; /* Further reduced padding for very small screens */
+  }
+
+  .department-logo {
+    width: 100%; /* Full width for very small screens */
+  }
+
+  .department-info h2 {
+    font-size: 1.8rem; /* Smaller font size for very small screens */
+  }
+
+  .department-info p {
+    font-size: 0.9rem; /* Smaller font size for very small screens */
+  }
+
+  .office-barriers h3 {
+    font-size: 1.6rem; /* Smaller font size for very small screens */
+  }
+
+  .barriers-image {
+    height: 15vh; /* Further reduced height for very small screens */
+  }
+}
+
+/* Barrier section */
+.Barrier {
+  flex-direction: column;
+}

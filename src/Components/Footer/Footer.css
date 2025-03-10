@@ -1,0 +1,44 @@
+/* Footer Container */
+.footer-container {
+    bottom: 0px;
+    background-color:transparent;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    z-index: 100;
+    border-top: 2px solid rgba(255,255,255,0.5);
+
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 30px; /* Icon Size */
+    color:white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+/* Developed By Section */
+.DevelopersName {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.DevelopersName:hover {
+    color: gray;
+}

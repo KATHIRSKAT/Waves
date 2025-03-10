@@ -1,0 +1,147 @@
+/* General container to hold all sections */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center align all content */
+    height: 100%; /* Full viewport height */
+    padding: 20px;
+    gap: 40px; /* Space between sections */
+}
+
+/* Styling for each section */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+/* Symposium Logo Section */
+.symposium-logo .logo {
+    width: auto; /* Adjust the size of the logo */
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.symposium-logo .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+}
+
+.symposium-logo .date {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+/* About Symposium Section */
+.about-symposium h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.about-symposium p {
+    font-size: 18px;
+    color: white;
+    width: 80%; /* Optional: limit text width for better readability */
+    margin: 0 auto;
+}
+
+/* Sponsors Section */
+.sponsors h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section-about-symposium{
+    background-color:transparent;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:100%;
+    max-width:8000px;
+   
+}
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsor-logo {
+    width: 40%; /* Adjust size of sponsor logos */
+    height: 50%;
+    margin: 5%;
+}
+
+.sponsor p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Accommodation Section */
+.accommodation {
+    background-color: transparent;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.accommodation h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.accommodation p {
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.accommodation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accommodation ul li {
+    margin-bottom: 10px;
+}
+
+.accommodation ul li a {
+    color: #61dafb; /* Light blue color for links */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.accommodation ul li a:hover {
+    text-decoration: underline;
+}
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
