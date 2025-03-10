@@ -11,6 +11,7 @@
   position: relative;
   /* Add spacing between cards */
   display: flex;
+  justify-content: space-between;
   flex-direction: column; /* Stack children vertically */
 }
 
@@ -25,6 +26,7 @@
   position: relative;
   overflow: hidden;
   display: flex;
+  justify-content: space-between;
   align-items: center; /* Center the image vertically */
   justify-content: center; /* Center the image horizontally */
 }
@@ -64,8 +66,8 @@
   display: flex;
   flex-wrap: wrap; /* Allow cards to wrap to the next line */
   justify-content: center; /* Center cards horizontally */
-  gap: 20px; /* Add consistent spacing between cards */
-  padding: 20px; /* Add padding around the container */
+  /* Add consistent spacing between cards */
+   /* Add padding around the container */
   box-sizing: border-box; /* Include padding in width calculation */
 }
 

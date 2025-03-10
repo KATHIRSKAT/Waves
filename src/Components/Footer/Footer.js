@@ -25,7 +25,7 @@ function Footer() {
             
             <a href="https://www.linkedin.com/in/kathir-s-427b77318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="DevelopersName" target="_blank" rel="noopener noreferrer">Kathir  </a>
             <a href="https://www.linkedin.com/in/kishore-dharun-a87176212?trk=contact-info" className="DevelopersName" target="_blank" rel="noopener noreferrer">Dharun </a>
-            <a href="" className="DevelopersName" target="_blank" rel="noopener noreferrer">Divya  </a>
+            <a href="https://www.linkedin.com/in/divya-prakash-9b465a355/" className="DevelopersName" target="_blank" rel="noopener noreferrer">Divya  </a>
             
       </div>
     </footer>

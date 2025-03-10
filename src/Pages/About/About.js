@@ -35,6 +35,37 @@ const About = () => {
 
 Spread over three centres on campus, namely the Electrical Laboratory, the High Voltage Engineering Laboratory and the Power Systems block, the depart-ment offers specialisations and research opportunities under the following core areas Power Engineering and Management, Embedded System Technologies, Power Systems Engineering, High Voltage Engineering, Power Electronics and Drives and Control & Instrumentation.
           </p>
+          <h2>About HOBBEEE CLUB</h2>
+          <p>
+          The HOBBEEE Club of the Electrical and Electronics Engineering Department at College of Engineering Guindy, is a dynamic community of electrical engineering students dedicated to knowledge sharing, academic excellence and innovative thinking.
+
+HOBBEEE was founded with the mission to foster a deeper understanding of theoretical concepts by bridging the gap between seniors and juniors. This club creates an interactive and supportive environment, where seniors mentor juniors, by helping them to grasp fundamental electrical concepts, clarify doubts and delve into the theoretical aspects in-depth.
+
+          </p>
+          <h2>ABOUT IMPULSE</h2>
+          <p>
+          Ever wondered what happens when you combine the intellectual
+minds of Electrical Engineering, along with the creative zest of
+journalism? The result is “IMPULSE”- where innovations are sparked,
+and ideas are powered.
+</p>
+          <p>
+          “IMPULSE” is the electrifying official magazine of SEEE, which
+was first published in the year 2010. From cutting edge tech articles,
+to inspiring interviews, IMPULSE is one of  the best platforms for exploring the
+recent trends and breakthroughs in the world of Electrical and
+Electronics Engineering, and getting your minds electrified.
+
+
+          </p>
+
+          <p>
+          The domains in IMPULSE include Design, Contents, Editing,
+Podcast, and Interview. Each domain displays the creative minds of
+the IMPULSE team. For students, this is a wonderful platform to
+showcase their talents and skills beyond academics.
+
+          </p>
         </div>
 
         {/* Department Office Barriers Section */}
@@ -130,6 +161,28 @@ Spread over three centres on campus, namely the Electrical Laboratory, the High 
                   <div>
                     <h4>Dinesh</h4>
                     <h4>Joint Secretary</h4>
+                  </div>
+              </div>
+              <div className="Barrier">
+                  <img
+                    src={Krithiga} // Replace with your actual barriers image path
+                    alt="Department Office Barriers"
+                    className="barriers-image"
+                  />
+                  <div>
+                    <h4>kiruthiga</h4>
+                    <h4>IR</h4>
+                  </div>
+              </div>
+              <div className="Barrier">
+                  <img
+                    src={Pratheesh} // Replace with your actual barriers image path
+                    alt="Department Office Barriers"
+                    className="barriers-image"
+                  />
+                  <div>
+                    <h4>Pratheesh</h4>
+                    <h4>IR</h4>
                   </div>
               </div>
             </div>
