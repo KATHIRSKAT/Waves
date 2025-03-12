@@ -96,9 +96,7 @@
   0% {
     transform: translateX(0); /* Start from the initial position */
   }
-  50%{
-    transform: translateX(50%);
-  }
+ 
   100% {
     transform: translateX(-50%); /* Move the container by 50% of its width */
   }

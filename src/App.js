@@ -7,6 +7,7 @@ import TechEvents from "./Pages/TechEvents/TechEvents"
 import Workshops from "./Pages/Workshops/Workshops";
 import Hackathon from './Pages/Hackathon/Hackathon';
 import NonTechEvents from "./Pages/NonTechEvents/NonTechEvents"
+import Project from "./Pages/Project/Project"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/workshop" element={<Workshops />} />
           <Route path="/TechEvents" element={<TechEvents/>} />
           <Route path="/NonTechEvents" element={<NonTechEvents />} />
+          <Route path="/Project" element ={<Project />} />
         </Routes>
     </Router>
   );

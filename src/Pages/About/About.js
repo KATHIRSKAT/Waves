@@ -49,15 +49,9 @@ minds of Electrical Engineering, along with the creative zest of
 journalism? The result is “IMPULSE”- where innovations are sparked,
 and ideas are powered.
 </p>
-          <p>
-          “IMPULSE” is the electrifying official magazine of SEEE, which
-was first published in the year 2010. From cutting edge tech articles,
-to inspiring interviews, IMPULSE is one of  the best platforms for exploring the
-recent trends and breakthroughs in the world of Electrical and
-Electronics Engineering, and getting your minds electrified.
+        
 
-
-          </p>
+    
 
           <p>
           The domains in IMPULSE include Design, Contents, Editing,

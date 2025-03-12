@@ -11,9 +11,11 @@ const Hackathon = () => {
           <img src={Logo} alt="Hackathon Logo" className="hackathon-image" />
           <div className="hackathon-details">
             <h2 className="hackathon-title">Hackathon 2025</h2>
-            <p className="hackathon-description">
-              Join our 24-hour hackathon to solve real-world problems using cutting-edge technology. Whether you're a beginner or an expert, this is your chance to collaborate, innovate, and win exciting prizes!
-            </p>
+            <div>
+              <p>
+              The Sustainability Hackathon at WAVES, organized by SEEE, challenges innovators to develop smart, sustainable solutions for real-world environmental issues. Participants will collaborate on ideas ranging from renewable energy to eco-friendly innovations. Join us in driving sustainability forward and shaping a greener future!
+              </p>
+            </div>
             <a
               href="https://forms.gle/pXqBQpk5R4QmXLfJ7"
               target="_blank"

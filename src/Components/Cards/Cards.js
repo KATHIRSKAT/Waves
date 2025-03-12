@@ -8,12 +8,10 @@ const Cards = ({ imageUrl, formLink ,name}) => {
         <img src={imageUrl} alt="Card" className="card-image" />
       </div>
       <div className='eventName'>
-        
-          <p>
-          {name}
-          </p>
-          
-    </div>
+        <p>
+            {name}
+        </p>
+      </div>
     </div>
   );
 };

@@ -86,6 +86,14 @@ function Header() {
         >
           NonTechEvents
         </NavLink>
+        <NavLink
+          to="/Project"
+          className="Header-Element"
+          onClick={handleNavLinkClick}
+          activeClassName="active"
+        >
+          Project Display
+        </NavLink>
         
       </div>
     </div>

@@ -1,0 +1,51 @@
+/* Container for the Project page */
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: transparent; /* Light background for contrast */
+  }
+  
+  /* Project Card */
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 600px; /* Larger width for the card */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Project Image */
+  .project-image {
+    width: 80%; /* Full width of the card */
+    height: auto;
+    max-height: 300px; /* Limit image height */
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Project Details */
+  .project-details {
+    width: 100%;
+  }
+  
+  .project-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: greenyellow;
+    margin-bottom: 15px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  
