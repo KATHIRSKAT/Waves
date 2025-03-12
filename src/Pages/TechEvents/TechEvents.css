@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   padding: 20px;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 /* Responsive design for smaller screens */
@@ -18,6 +19,7 @@
     width: 200px; /* Fixed width for cards */
     height: 200px; /* Fixed height for cards */
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 }
 

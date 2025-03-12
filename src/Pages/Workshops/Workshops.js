@@ -3,6 +3,7 @@ import Card from "../../Components/Card/Card";
 import Logo1 from "../../Logo/OB/pcb.png";
 import Logo2 from "../../Logo/OB/iot.png";
 import Logo3 from "../../Logo/OB/matlab.png";
+import Logo4 from "../../Logo/OB/EV.png";
 import "./Workshops.css";
 import Layout from "../../Components/Layout/Layout";
 
@@ -25,7 +26,11 @@ const Workshops = () => {
         formLink="https://forms.gle/pEN41HqnfHJoKe548"
         title="Symposium Registration"
       />
-      
+      <Card
+        imageUrl={Logo4}
+        formLink="https://forms.gle/yysgscnhnpiPkW4g9"
+        title="Symposium Registration"
+      />
       
     </div>
     </Layout>
