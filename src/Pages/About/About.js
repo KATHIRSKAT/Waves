@@ -70,7 +70,7 @@ showcase their talents and skills beyond academics.
 
         {/* Department Office Barriers Section */}
         <div className="office-barriers">
-          <h3>Department Office Barriers</h3>
+          <h3>Department Office Bearers</h3>
           <div className="barriers-image-container">
             {/* Duplicate the images for seamless looping */}
             <div className="barriers-image-wrapper">
