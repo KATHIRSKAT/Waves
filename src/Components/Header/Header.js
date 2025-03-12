@@ -70,6 +70,22 @@ function Header() {
         >
           Workshop
         </NavLink>
+        <NavLink
+          to="/TechEvents"
+          className="Header-Element"
+          onClick={handleNavLinkClick}
+          activeClassName="active"
+        >
+          TechEvents
+        </NavLink>
+        <NavLink
+          to="/NonTechEvents"
+          className="Header-Element"
+          onClick={handleNavLinkClick}
+          activeClassName="active"
+        >
+          NonTechEvents
+        </NavLink>
         
       </div>
     </div>

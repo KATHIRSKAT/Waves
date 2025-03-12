@@ -1,0 +1,30 @@
+/* Container for all cards */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    justify-content: center; /* Center cards horizontally */
+  }
+  .container .card {
+    width: 200px; /* Fixed width for cards */
+    height: 200px; /* Fixed height for cards */
+    margin: 0 auto;
+  }
+}
+
+/* Adjustments for very small screens */
+@media (max-width: 480px) {
+  .container .card {
+    width: 100%; /* Cards take up full width */
+    height: auto; /* Height adjusts based on content */
+  }
+}
