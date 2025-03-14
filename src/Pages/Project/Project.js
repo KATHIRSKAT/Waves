@@ -12,7 +12,7 @@ const Project = () => {
           <div className="project-details">
           <div className="card-footer">
             <p>
-            The *Society of Electrical and Electronics Engineers (SEEE)* presents the *Project Display* at *WAVES, a platform for students to showcase their innovative projects and technical expertise. This event highlights groundbreaking ideas in **electrical, electronics, and interdisciplinary engineering*, offering participants an opportunity to present their work to peers, industry experts, and academia. Join us to witness creativity in action and explore the future of technology!
+            The Society of Electrical and Electronics Engineers (SEEE) presents the Project Display at WAVES, a platform for students to showcase their innovative projects and technical expertise. This event highlights groundbreaking ideas in electrical, electronics, and interdisciplinary engineering, offering participants an opportunity to present their work to peers, industry experts, and academia. Join us to witness creativity in action and explore the future of technology!
             </p>
         <a href="https://forms.gle/x8BqtsG8ZWMP8NLP6" target="_blank" rel="noopener noreferrer" className="register-button">
           Register

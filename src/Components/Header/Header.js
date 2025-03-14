@@ -94,6 +94,14 @@ function Header() {
         >
           Project Display
         </NavLink>
+        <NavLink
+          to="/Accomadation"
+          className="Header-Element"
+          onClick={handleNavLinkClick}
+          activeClassName="active"
+        >
+          Accomadation
+        </NavLink>
         
       </div>
     </div>

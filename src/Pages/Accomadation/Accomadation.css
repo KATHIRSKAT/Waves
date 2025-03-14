@@ -1,0 +1,52 @@
+
+.accommodation {
+    background-color: black;
+    opacity: 0.8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.accommodation h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.accommodation p {
+    font-size: 18px;
+    color: white;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.accommodation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accommodation ul li {
+    margin-bottom: 10px;
+}
+
+.accommodation ul li a {
+    color: #61dafb; /* Light blue color for links */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.accommodation ul li a:hover {
+    text-decoration: underline;
+}
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+}
